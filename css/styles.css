@@ -1,0 +1,239 @@
+:root{
+    /* defined colours */
+    --SLATE: #434455;
+    --IRIS: #4D5AE5;
+    --NAVY-BLUE: #2E2F42;
+    --CLOUD: #F4F4FD;
+    --CORNFLOWER: #E7E9FC;
+    --OCEAN: #404BBF;
+}
+
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: var(--SLATE);
+}
+
+
+.list{
+    list-style: none;
+}
+
+button:hover,
+button:focus,
+a:hover,
+a:focus{
+    cursor: pointer;
+}
+h2, h3{
+    color: var(--NAVY-BLUE);
+}
+h2{
+    font-size: 36px;
+    line-height: 1.1rem;
+    font-weight: 700;
+}
+h3{
+    font-size: 20px;
+    line-height: 1.2rem;
+    font-weight: 500;
+}
+
+/* header & footers sections */
+
+
+.link-address{
+    color: var(--SLATE);
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.link-nav{
+    color: var(--NAVY-BLUE);
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.link{
+    text-decoration: none;
+}
+.link:hover,
+.link:focus{
+    color: var(--OCEAN);
+}
+
+.logo-nav,
+.logo-footer{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--IRIS);
+}
+
+/* .link{
+    text-decoration: none;
+} */
+
+/* .link:hover,
+.link:active{
+    color: var(--OCEAN);
+} */
+
+.logo-nav span{
+    color: var(--NAVY-BLUE);
+}
+
+.logo-color{
+    color: var(--CLOUD);
+}
+
+.logo-color-alt{
+    color: var(--NAVY-BLUE);
+}
+
+.address{
+    font-style: normal;
+}
+
+
+nav > a{
+    color: var(--NAVY-BLUE);
+}
+footer > a{
+    color: white;
+}
+footer{
+    background-color: #2E2F42;
+    color: var(--CLOUD);
+}
+
+.text-footer{
+    letter-spacing: 0.02em;
+}
+
+
+/* studio section */
+
+.studio-section-first{
+    background-color: var(--NAVY-BLUE);
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.heading-studio-section-first{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.button-studio-section-first{
+    background-color: var(--IRIS);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.button-studio-section-first:hover,
+.button-studio-section-first:focus{
+    background-color: var(--OCEAN);
+}
+
+.studio-section-team{
+    background-color: var(--CLOUD);
+}
+.studio-section-team li{
+    background-color: white;
+}
+
+.studio-section-socond{
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.p-studio-section-second{
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+.heading-studio-section-second{
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+
+.heading-studio-section-third{
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.heading-studio-section-team{
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.heading-item-studio-section-team{
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.p-item-studio-section-team{
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
+/* portfolio section */
+
+/* .portfolio-section-list li{
+    border: 1px solid var(--CORNFLOWER);
+    background-color: white;
+}
+.portfolio-section-nav button{
+    border: 1px solid var(--CORNFLOWER);
+    background-color: var(--CLOUD);
+    color: var(--IRIS);
+}
+.portfolio-section-nav button:hover{
+    background-color: var(--OCEAN);
+    color: white;
+} */
+
+
+.button-portfolio-section{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--IRIS);
+    background-color: var(--CLOUD);
+}
+
+.button-portfolio-section:hover,
+.button-portfolio-section:focus{
+    color: white;
+    background-color: var(--OCEAN);
+}
+
+.heading-item-portfolio-section{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE);
+}
+
+.p-item-portfolio-section{
+    letter-spacing: 0.02em;
+    color: var(--SLATE);
+}
