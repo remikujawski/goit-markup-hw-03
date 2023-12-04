@@ -194,6 +194,9 @@ img{
 .list-item-ss{
     width: calc((100% - 72px) / 4);
 }
+.list-item-sp{
+    width: calc((100% - 48px) / 3);
+}
 
 /* SECTION THIRD */
 
@@ -238,6 +241,12 @@ img{
     padding-top: 96px;
     padding-bottom: 120px;
 }
+.portfolio-section .list{
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+}
 
 .portfolio-section .item-button{
     font-weight: 500;
@@ -264,4 +273,10 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE);
+}
+.portfolio-section .info-data{
+    padding: 32px 16px;
+    border: 1px solid var(--CORNFLOWER);
+    border-top: none;
+    margin-bottom: 8px;
 }
