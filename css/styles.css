@@ -231,12 +231,6 @@ img{
     padding-top: 96px;
     padding-bottom: 120px;
 }
-.portfolio-section .list{
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-
-}
 
 .portfolio-section .item-button{
     font-weight: 500;
@@ -273,8 +267,11 @@ img{
 }
 .portfolio-section .list-item-sp{
     width: calc((100% - 48px) / 3);
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
-.portfolio-menu-nav{
+.portfolio-section .portfolio-menu-nav{
     display: flex;
     justify-content: center;
     gap: 24px;
