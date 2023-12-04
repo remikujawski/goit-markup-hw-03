@@ -10,7 +10,20 @@
     --RALEWAY: 'Raleway';
 }
 
-/* genral styles */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    pointer-events: none;
+}
 
 body{
     background-color: white;
@@ -52,9 +65,6 @@ img{
 .menu-contact{
     gap: 40px;
 }
-
-/* HEADER FOOTER */
-
 
 .header{
     border-bottom: 1px solid var(--CORNFLOWER);
@@ -166,6 +176,12 @@ img{
 }
 
 /* SECTION SECOND */
+.studio-section-second .list{
+    gap: 24px;
+}
+.studio-section-second .heading{
+    margin-bottom: 8px;
+}
 
 /* SECTION THIRD */
 
