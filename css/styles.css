@@ -22,6 +22,17 @@ body{
     color: var(--SLATE);
 }
 
+
+nav,
+.header .container{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+
 .list{list-style: none;}
 .link{
     text-decoration: none;
@@ -29,7 +40,17 @@ body{
 }
 .address{font-style: normal;}
 
+.container{
+    max-width: 1158px;
+    margin: 0 auto;
+}
+
 /* HEADER FOOTER */
+
+
+.header{
+    border-bottom: 1px solid var(--CORNFLOWER);
+}
 
 .logo-header,
 .logo-footer{
@@ -90,15 +111,17 @@ body{
 /* SECTION FIRST */
 
 .studio-section-first{
-    background-color: var(--NAVY-BLUE);
     color: white;
+    text-align: center;
+    padding: 200px 300px;
+    background-color: var(--NAVY-BLUE);
 }
+
 .main-heading{
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
-    text-align: center;
 }
 .studio-section-first .button{
     background-color: var(--IRIS);
@@ -150,4 +173,15 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE);
+}
+
+.studio-section-third .list,
+.studio-section-fourth .list{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+      flex-wrap:wrap;
+      justify-content:space-around;
+      align-content:flex-start;
+      margin: 0 auto;
 }
