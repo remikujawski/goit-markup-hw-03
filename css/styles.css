@@ -123,6 +123,7 @@ img{
     font-weight: 500;
     line-height: 24px; /* 120% */
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .header .link-nav:hover,
@@ -183,6 +184,9 @@ img{
 /* SECTION SECOND */
 .studio-section-second .heading{
     margin-bottom: 8px;
+}
+.studio-section-second .list-item{
+    width: calc((100% - 72px) / 4);
 }
 
 /* SECTION THIRD */
