@@ -227,9 +227,22 @@ img{
 
 /* SECTION PORTFOLIO */
 
+.portfolio-menu-nav{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 .portfolio-section{
     padding-top: 96px;
     padding-bottom: 120px;
+}
+.portfolio-section .portfolio-list{
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
 }
 
 .portfolio-section .item-button{
@@ -267,13 +280,4 @@ img{
 }
 .portfolio-section .list-item-sp{
     width: calc((100% - 48px) / 3);
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-}
-.portfolio-section .portfolio-menu-nav{
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin-bottom: 72px;
 }
