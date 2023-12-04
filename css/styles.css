@@ -23,6 +23,7 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
     pointer-events: none;
+    display: none;
 }
 
 body{
@@ -186,7 +187,7 @@ img{
     margin-bottom: 8px;
 }
 .studio-section-second .list-item{
-    width: calc((100% - 72px) / 4);
+    width: flex-basis: calc((100% - 72px) / 4);
 }
 
 /* SECTION THIRD */
