@@ -116,6 +116,7 @@ img{
     text-transform: capitalize;
     text-align: center;
 }
+.section-heading{margin-bottom: 72px;}
 .heading{
     color: var(--NAVY-BLUE);
     font-size: 20px;
@@ -135,6 +136,10 @@ img{
 .item-button{
     font-family: var(--ROBOTO), sans-serif;
     cursor: pointer;
+}
+
+.card-list{
+    gap: 24px;
 }
 
 /* SECTION FIRST */
@@ -176,9 +181,6 @@ img{
 }
 
 /* SECTION SECOND */
-.studio-section-second .list{
-    gap: 24px;
-}
 .studio-section-second .heading{
     margin-bottom: 8px;
 }
