@@ -28,7 +28,6 @@ body{
     display: flex; 
     align-items: center; 
     justify-content: space-between;
-    padding: 0 15px'
 }
 ul{
     display: flex;
@@ -47,6 +46,7 @@ img{
 .container{
     max-width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* HEADER FOOTER */
@@ -78,6 +78,7 @@ img{
     color: var(--NAVY-BLUE);
     font-weight: 500;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .footer{
@@ -115,6 +116,11 @@ img{
 .item-button{
     font-family: var(--ROBOTO), sans-serif;
     cursor: pointer;
+}
+
+.menu-nav,
+.menu-contact{
+    gap: 40px;
 }
 
 /* SECTION FIRST */
