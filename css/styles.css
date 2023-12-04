@@ -64,6 +64,13 @@ img{
     gap: 40px;
 }
 
+.portfolio-menu-nav{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 .header{
     border-bottom: 1px solid var(--CORNFLOWER);
 }
@@ -227,6 +234,11 @@ img{
 
 /* SECTION PORTFOLIO */
 
+.portfolio-section{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .portfolio-section .item-button{
     font-weight: 500;
     font-size: inherit;
@@ -234,11 +246,17 @@ img{
     letter-spacing: 0.04em;
     color: var(--IRIS);
     background-color: var(--CLOUD);
+    padding: 12px 24px;
+    border: 1px solid var(--CORNFLOWER);
+    border-radius: 4px;
+
 }
 .portfolio-section .item-button:hover,
 .portfolio-section .item-button:focus{
     color: white;
     background-color: var(--OCEAN);
+    border: 1px solid transparent;
+
 }
 .portfolio-section .sub-heading{
     font-weight: 500;
