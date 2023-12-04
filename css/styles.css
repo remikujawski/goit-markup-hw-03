@@ -32,6 +32,9 @@ nav,
 ul{
     display: flex;
 }
+img{
+    display: block;
+}
 
 .list{list-style: none;}
 .link{
@@ -50,6 +53,10 @@ ul{
 
 .header{
     border-bottom: 1px solid var(--CORNFLOWER);
+}
+
+.section{
+    padding: 120px 0;
 }
 
 .logo-header,
@@ -122,6 +129,7 @@ ul{
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
+    max-width: 496px;
 }
 .studio-section-first .button{
     background-color: var(--IRIS);
