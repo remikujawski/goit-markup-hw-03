@@ -64,13 +64,6 @@ img{
     gap: 40px;
 }
 
-.portfolio-menu-nav{
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin-bottom: 72px;
-}
-
 .header{
     border-bottom: 1px solid var(--CORNFLOWER);
 }
@@ -194,9 +187,6 @@ img{
 .list-item-ss{
     width: calc((100% - 72px) / 4);
 }
-.list-item-sp{
-    width: calc((100% - 48px) / 3);
-}
 
 /* SECTION THIRD */
 
@@ -273,10 +263,20 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE);
+    margin-bottom: 8px;
 }
 .portfolio-section .info-data{
     padding: 32px 16px;
     border: 1px solid var(--CORNFLOWER);
     border-top: none;
     margin-bottom: 8px;
+}
+.portfolio-section .list-item-sp{
+    width: calc((100% - 48px) / 3);
+}
+.portfolio-menu-nav{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
