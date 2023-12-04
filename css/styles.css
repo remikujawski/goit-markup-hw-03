@@ -22,13 +22,6 @@ body{
     color: var(--SLATE);
 }
 
-
-.nav,
-.header .container{
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between;
-}
 ul{
     display: flex;
 }
@@ -47,6 +40,17 @@ img{
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.nav,
+.header .container{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.menu-nav,
+.menu-contact{
+    gap: 40px;
 }
 
 /* HEADER FOOTER */
@@ -116,11 +120,6 @@ img{
 .item-button{
     font-family: var(--ROBOTO), sans-serif;
     cursor: pointer;
-}
-
-.menu-nav .list,
-.menu-contact .list{
-    gap: 40px;
 }
 
 /* SECTION FIRST */
