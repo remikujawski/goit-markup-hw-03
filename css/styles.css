@@ -23,11 +23,12 @@ body{
 }
 
 
-nav,
+.nav,
 .header .container{
     display: flex; 
     align-items: center; 
     justify-content: space-between;
+    padding: 0 15px'
 }
 ul{
     display: flex;
@@ -70,6 +71,7 @@ img{
     text-transform: uppercase;
 }
 
+.logo-header{margin-right: 76px;}
 .logo-header .logo-color{color: var(--NAVY-BLUE);}
 .logo-footer .logo-color{color: var(--CLOUD);}
 .header .link-nav{
