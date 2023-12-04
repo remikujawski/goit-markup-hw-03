@@ -118,10 +118,8 @@ img{
     cursor: pointer;
 }
 
-.menu-nav,
-.menu-contact{
-    gap: 40px;
-}
+.menu-nav{gap: 40px;}
+.menu-contact{gap: 40px;}
 
 /* SECTION FIRST */
 
