@@ -134,6 +134,7 @@ img{
     text-align: center;
     padding: 200px 300px;
     background-color: var(--NAVY-BLUE);
+    padding: 188px 0;
 }
 
 .main-heading{
@@ -150,6 +151,11 @@ img{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: white;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .studio-section-first .button:hover,
 .studio-section-first .button:focus{
