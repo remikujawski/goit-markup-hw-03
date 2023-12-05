@@ -102,6 +102,9 @@ img{
     color: var(--CLOUD);
     padding: 100px 0;
 }
+.footer-desc{
+    max-width: 264px;
+}
 
 /* SECTIONS DEFAULT */
 .section-heading,
